@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+ul {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+   
+}
+
+nav li {
+    margin: 20px 20px;
+}
+
+nav #main-name {
+    font-size: 30px;
+}
+
+
+
+nav {
+    background-color: deepskyblue;
+
+    
+
+}
+
+.main-content {
+    background-color: red;
+    float:left;
+}
+
+.side-content {
+    width:300px;
+    float:right;
+    background-color: aqua;
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
